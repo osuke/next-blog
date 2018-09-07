@@ -1,0 +1,28 @@
+{
+  "name": "ssr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "next": "^4.2.3",
+    "next-routes": "^1.2.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "reset-css": "^2.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "babel-plugin-css-modules-transform": "^1.4.0",
+    "css-loader": "^0.28.9",
+    "node-sass": "^4.7.2",
+    "postcss": "^6.0.16",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1"
+  }
+}

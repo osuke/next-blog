@@ -1,0 +1,14 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "css-modules-transform", {
+        "preprocessCss": "./pre-processor.js",
+        "extensions": [".css", ".scss"],
+        "append": [ "autoprefixer" ],
+        "generateScopedName": "[name]__[local]___[hash:base64:5]",
+        "extractCss": "./static/css/bundle.css",
+      }
+    ]
+  ]
+}
